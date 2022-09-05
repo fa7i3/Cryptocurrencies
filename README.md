@@ -10,7 +10,7 @@ This project consists of four technical analysis deliverables:
 # Results
 Following the preprocessing and cleaning processes, there are 532 tradable cryptocurrencies.
 
-## Clustering Crytocurrencies Using K-Means - Elbow Curve
+#### Clustering Crytocurrencies Using K-Means - Elbow Curve
 An Elbow curve was generated using the reduced dataset to determine the number of clusters.
 
 ## Visualizing Cryptocurrencies Results
