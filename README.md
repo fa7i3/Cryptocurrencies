@@ -25,6 +25,7 @@ The 3D-Scatter plot was obtained using the cleaned PCA data and clusters.
 According to the 3D-Scatter below, the outlier is the currency that belongs to class 3.
 
 
+![3d-scatter plot](https://user-images.githubusercontent.com/104453593/189487748-5a4718cc-f262-4df5-b2f1-a65eec49db3c.PNG)
 
 
 
@@ -33,6 +34,7 @@ According to the 3D-Scatter below, the outlier is the currency that belongs to c
 Accoring to the Tradable Cryptocurrencies table below, most of the cryptocurrencies belong to classes 0 and 1.
 
 
+![tradable table](https://user-images.githubusercontent.com/104453593/189487763-9910b365-1659-43ba-aef3-ac644c49e494.PNG)
 
 
 
@@ -40,6 +42,7 @@ Accoring to the Tradable Cryptocurrencies table below, most of the cryptocurrenc
 #### hvplot.scatter plot with TotalCoinSupply vs TotalCoinsMined
 Plotting the hvplot.scatter plot from two cryptocurrency features does not efficiently segregate the different classes. Therefore, using the 3D-Scatter plot is the right method for better visualizations.
 
+![2d-plot](https://user-images.githubusercontent.com/104453593/189487768-31f42e82-73c7-4d98-992c-c3d490110c6c.PNG)
 
 
 
