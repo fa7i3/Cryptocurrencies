@@ -12,15 +12,38 @@ Following the preprocessing and cleaning processes, there are 532 tradable crypt
 
 #### Clustering Crytocurrencies Using K-Means - Elbow Curve
 An Elbow curve was generated using the reduced dataset to determine the number of clusters.
+According to the elbow curve below, the best k value appears to be 4 so we would conclude on an output of 4 clusters to categorize the crytocurrencies.
+
+
+
+![elbow curve](https://user-images.githubusercontent.com/104453593/189487723-4b826b9f-a52d-48fd-b95e-64db1298f3f6.PNG)
+
+
 
 #### Visualizing Cryptocurrencies Results
 The 3D-Scatter plot was obtained using the cleaned PCA data and clusters.
-The outlier is the currency that belongs to class 2.
+According to the 3D-Scatter below, the outlier is the currency that belongs to class 3.
+
+
+
+
+
 
 #### Tradable Cryptocurrencies Table
-Most of the cryptocurrencies belong to classes 0 and 3.
+Accoring to the Tradable Cryptocurrencies table below, most of the cryptocurrencies belong to classes 0 and 1.
 
-#### hvplot.scatter plot with TotalCoinsMined and TotalCoinSupply
+
+
+
+
+
+#### hvplot.scatter plot with TotalCoinSupply vs TotalCoinsMined
 Plotting the hvplot.scatter plot from two cryptocurrency features does not efficiently segregate the different classes. Therefore, using the 3D-Scatter plot is the right method for better visualizations.
+
+
+
+
+
+
 # Summary
 Following the preprocessing and cleaning processes, there are 532 tradable cryptocurrencies based on similarities of their features.
